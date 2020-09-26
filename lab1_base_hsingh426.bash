@@ -55,8 +55,8 @@ lscpu
 echo -e "\nMEMORY INFO:"
 free -h
 
-#DEV
-echo -e "\nDEVICES:"
+#FS/CGROUPS
+echo -e "\nFILE SYSTEMS:"
 mount
 # Running services (o)
 echo -e "\nRUNNING SERVICES:"
