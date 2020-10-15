@@ -36,5 +36,5 @@ iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
 
 # Accept HTTP
 iptables -A INPUT -p tcp --dport 80 -s 192.168.24.0/29 -j ACCEPT
-
+iptables -A INPUT -p tcp --dport 80 -s 172.17.24.0/29 -j ACCEPT
 
