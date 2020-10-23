@@ -22,13 +22,11 @@ iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
 
 # LOG SYN PACKETS
 iptables -A INPUT -p tcp --dport 80 --syn -j LOG --log-prefix "[iptables] HTTP SYN: "
+iptables -A INPUT -p tcp --dport 22 --syn -j LOG --log-prefix "[iptables] SSH SYN: "
 
 # ALLOW SSH (INCOMING)
 iptables -A INPUT -p tcp --dport 22 -m conntrack -s 192.168.24.0/29 --ctstate NEW,ESTABLISHED -j ACCEPT
-iptables -A INPUT -p tcp --dport 22 -m conntrack -s 172.17.24.1 --ctstate NEW,ESTABLISHED -j ACCEPT
 iptables -A OUTPUT -p tcp --sport 22 -m conntrack --ctstate ESTABLISHED -j ACCEPT
-
-
 
 # Accept ICMP 
 iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
@@ -36,5 +34,5 @@ iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
 
 # Accept HTTP
 iptables -A INPUT -p tcp --dport 80 -s 192.168.24.0/29 -j ACCEPT
-iptables -A INPUT -p tcp --dport 80 -s 172.17.24.0/29 -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -s 172.17.10.0/29 -j ACCEPT
 
