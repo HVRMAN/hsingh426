@@ -6,6 +6,7 @@ then
 	exit 1
 fi
 
+iptables -F
 # POLICIES
 iptables -P INPUT DROP 
 iptables -P FORWARD DROP
@@ -15,32 +16,41 @@ iptables -P OUTPUT ACCEPT
 iptables -A INPUT -i lo -j ACCEPT
 iptables -A OUTPUT -o lo -j ACCEPT
 
+# ICMP RULES
+iptables -A INPUT -p icmp --icmp-type 8 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A OUTPUT -p icmp --icmp-type 0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+
 # ALLOW ESTABLISHED
 iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
 
 # Allow SSH
-iptables -A INPUT -p tcp --dport 22 -m conntrack -s 192.168.24.0/29 --ctstate NEW,ESTABLISHED -j ACCEPT
-iptables -A INPUT -p tcp --dport 22 -m conntrack -s 172.17.24.0/29 --ctstate NEW,ESTABLISHED -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -m conntrack -s 192.168.24.0/29 -i ens224 --ctstate NEW,ESTABLISHED -j ACCEPT
 iptables -A OUTPUT -p tcp --sport 22 -m conntrack --ctstate ESTABLISHED -j ACCEPT
 
-# ALLOW FORWARDING
-iptables -A FORWARD -i ens192 -o ens224 -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
-iptables -A FORWARD -i ens224 -o ens192 -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
-sudo iptables -A FORWARD -i ens192 -o ens224 -p tcp --syn --dport 80 -m conntrack --ctstate NEW -j ACCEPT
-sudo iptables -A FORWARD -i ens192 -o ens224 -p tcp --dport 22 -m conntrack --ctstate NEW -j ACCEPT
-iptables -A FORWARD -i ens224 -o ens192 -j ACCEPT
-iptables -A FORWARD -i ens192 -o ens224 -j ACCEPT
+#LOG SYNC PACKETS
+iptables -A FORWARD -p tcp --dport 80 --syn -j LOG --log-prefix "[iptables] HTTP SYN: "
+iptables -A FORWARD -p tcp --dport 22 --syn -j LOG --log-prefix "[iptables] SSH SYN: "
+
 
 # HTTP FORWARDING RULES
-iptables -A FORWARD -p tcp --dport 80 --syn -j LOG --log-prefix "[iptables] HTTP SYN: "
+#iptables -t nat -A POSTROUTING -o ens224 -p tcp --dport 80 -d 192.168.24.2 -j SNAT --to-source 192.168.24.1
 
-iptables -t nat -A POSTROUTING -o ens192 -j MASQUERADE 
-iptables -t nat -A PREROUTING -i ens192 -p tcp --dport 80 -d 172.17.24.1 -j DNAT --to-destination 192.168.24.2
-iptables -t nat -A PREROUTING -i ens192 -p tcp --dport 80 -d 172.17.24.2 -j DNAT --to-destination 192.168.24.2
-iptables -t nat -A POSTROUTING -o ens224 -p tcp --dport 80 -d 192.168.24.2 -j SNAT --to-source 192.168.24.1
-iptables -t nat -A PREROUTING -i ens192 -p tcp --dport 22 -d 172.17.24.2 -j DNAT --to-destination 192.168.24.2
-iptables -t nat -A POSTROUTING -o ens224 -p tcp --dport 22 -d 192.168.24.2 -j SNAT --to-source 192.168.24.1
+# ALLOW FORWARDING
+sudo iptables -A FORWARD -i ens224 -s 192.168.24.0/24 -j ACCEPT
+sudo iptables -A FORWARD -i ens192 -o ens224 -s 172.17.10.1/32 -j ACCEPT
+
+
+#iptables -A FORWARD -i ens192 -o ens224 -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+#iptables -A FORWARD -i ens224 -o ens192 -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+#sudo iptables -A FORWARD -i ens192 -o ens224 -p tcp --syn --dport 80 -m conntrack --ctstate NEW -j ACCEPT
+#sudo iptables -A FORWARD -i ens192 -o ens224 -p tcp --syn --dport 22 -m conntrack --ctstate NEW -j ACCEPT
+
+
+# SSH FORWARDING RULES
 
 iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
 
+# MASQUERADE ALL IPS
+iptables -t nat -A POSTROUTING -o ens192 -j MASQUERADE 
+iptables -t nat -A POSTROUTING -o ens244 -j MASQUERADE 
