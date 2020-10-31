@@ -1,0 +1,513 @@
+2020-10-22T20:20:03Z DEBUG Making cache files for all metadata files.
+2020-10-22T20:20:03Z INFO Metadata cache refreshed recently.
+2020-10-22T20:20:03Z DDEBUG Cleaning up.
+2020-10-22T21:20:07Z INFO --- logging initialized ---
+2020-10-22T21:20:07Z DDEBUG timer: config: 4 ms
+2020-10-22T21:20:07Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-22T21:20:07Z DEBUG DNF version: 4.2.17
+2020-10-22T21:20:07Z DDEBUG Command: dnf makecache --timer 
+2020-10-22T21:20:07Z DDEBUG Installroot: /
+2020-10-22T21:20:07Z DDEBUG Releasever: 8
+2020-10-22T21:20:07Z DEBUG cachedir: /var/cache/dnf
+2020-10-22T21:20:07Z DDEBUG Base command: makecache
+2020-10-22T21:20:07Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-22T21:20:07Z DEBUG Making cache files for all metadata files.
+2020-10-22T21:20:07Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-22T21:20:07Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-22T21:20:07Z DEBUG extras: has expired and will be refreshed.
+2020-10-22T21:20:07Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-22T21:20:07Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-22T21:20:08Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-22T21:20:08Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-22T21:20:08Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-22T21:20:08Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-22T21:20:08Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-22T21:20:08Z DDEBUG timer: sack setup: 1190 ms
+2020-10-22T21:20:08Z DEBUG Completion plugin: Generating completion cache...
+2020-10-22T21:20:08Z INFO Metadata cache created.
+2020-10-22T21:20:08Z DDEBUG Cleaning up.
+2020-10-22T22:20:11Z INFO --- logging initialized ---
+2020-10-22T22:20:11Z DDEBUG timer: config: 3 ms
+2020-10-22T22:20:11Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-22T22:20:11Z DEBUG DNF version: 4.2.17
+2020-10-22T22:20:11Z DDEBUG Command: dnf makecache --timer 
+2020-10-22T22:20:11Z DDEBUG Installroot: /
+2020-10-22T22:20:11Z DDEBUG Releasever: 8
+2020-10-22T22:20:11Z DEBUG cachedir: /var/cache/dnf
+2020-10-22T22:20:11Z DDEBUG Base command: makecache
+2020-10-22T22:20:11Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-22T22:20:11Z DEBUG Making cache files for all metadata files.
+2020-10-22T22:20:11Z INFO Metadata cache refreshed recently.
+2020-10-22T22:20:11Z DDEBUG Cleaning up.
+2020-10-22T23:20:14Z INFO --- logging initialized ---
+2020-10-22T23:20:14Z DDEBUG timer: config: 3 ms
+2020-10-22T23:20:14Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-22T23:20:14Z DEBUG DNF version: 4.2.17
+2020-10-22T23:20:14Z DDEBUG Command: dnf makecache --timer 
+2020-10-22T23:20:14Z DDEBUG Installroot: /
+2020-10-22T23:20:14Z DDEBUG Releasever: 8
+2020-10-22T23:20:14Z DEBUG cachedir: /var/cache/dnf
+2020-10-22T23:20:14Z DDEBUG Base command: makecache
+2020-10-22T23:20:14Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-22T23:20:14Z DEBUG Making cache files for all metadata files.
+2020-10-22T23:20:14Z INFO Metadata cache refreshed recently.
+2020-10-22T23:20:14Z DDEBUG Cleaning up.
+2020-10-23T00:20:18Z INFO --- logging initialized ---
+2020-10-23T00:20:18Z DDEBUG timer: config: 3 ms
+2020-10-23T00:20:18Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T00:20:18Z DEBUG DNF version: 4.2.17
+2020-10-23T00:20:18Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T00:20:18Z DDEBUG Installroot: /
+2020-10-23T00:20:18Z DDEBUG Releasever: 8
+2020-10-23T00:20:18Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T00:20:18Z DDEBUG Base command: makecache
+2020-10-23T00:20:18Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T00:20:18Z DEBUG Making cache files for all metadata files.
+2020-10-23T00:20:18Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T00:20:18Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T00:20:18Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T00:20:18Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T00:20:18Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T00:20:19Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T00:20:19Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T00:20:19Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T00:20:19Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T00:20:19Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T00:20:19Z DDEBUG timer: sack setup: 1136 ms
+2020-10-23T00:20:19Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T00:20:19Z INFO Metadata cache created.
+2020-10-23T00:20:19Z DDEBUG Cleaning up.
+2020-10-23T01:20:22Z INFO --- logging initialized ---
+2020-10-23T01:20:22Z DDEBUG timer: config: 3 ms
+2020-10-23T01:20:22Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T01:20:22Z DEBUG DNF version: 4.2.17
+2020-10-23T01:20:22Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T01:20:22Z DDEBUG Installroot: /
+2020-10-23T01:20:22Z DDEBUG Releasever: 8
+2020-10-23T01:20:22Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T01:20:22Z DDEBUG Base command: makecache
+2020-10-23T01:20:22Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T01:20:22Z DEBUG Making cache files for all metadata files.
+2020-10-23T01:20:22Z INFO Metadata cache refreshed recently.
+2020-10-23T01:20:22Z DDEBUG Cleaning up.
+2020-10-23T02:20:25Z INFO --- logging initialized ---
+2020-10-23T02:20:25Z DDEBUG timer: config: 3 ms
+2020-10-23T02:20:25Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T02:20:25Z DEBUG DNF version: 4.2.17
+2020-10-23T02:20:25Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T02:20:25Z DDEBUG Installroot: /
+2020-10-23T02:20:25Z DDEBUG Releasever: 8
+2020-10-23T02:20:25Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T02:20:25Z DDEBUG Base command: makecache
+2020-10-23T02:20:25Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T02:20:25Z DEBUG Making cache files for all metadata files.
+2020-10-23T02:20:25Z INFO Metadata cache refreshed recently.
+2020-10-23T02:20:25Z DDEBUG Cleaning up.
+2020-10-23T03:20:29Z INFO --- logging initialized ---
+2020-10-23T03:20:29Z DDEBUG timer: config: 3 ms
+2020-10-23T03:20:29Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T03:20:29Z DEBUG DNF version: 4.2.17
+2020-10-23T03:20:29Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T03:20:29Z DDEBUG Installroot: /
+2020-10-23T03:20:29Z DDEBUG Releasever: 8
+2020-10-23T03:20:29Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T03:20:29Z DDEBUG Base command: makecache
+2020-10-23T03:20:29Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T03:20:29Z DEBUG Making cache files for all metadata files.
+2020-10-23T03:20:29Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T03:20:29Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T03:20:29Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T03:20:29Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T03:20:29Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T03:20:30Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T03:20:30Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T03:20:30Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T03:20:30Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T03:20:30Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T03:20:30Z DDEBUG timer: sack setup: 913 ms
+2020-10-23T03:20:30Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T03:20:30Z INFO Metadata cache created.
+2020-10-23T03:20:30Z DDEBUG Cleaning up.
+2020-10-23T04:20:32Z INFO --- logging initialized ---
+2020-10-23T04:20:32Z DDEBUG timer: config: 3 ms
+2020-10-23T04:20:32Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T04:20:32Z DEBUG DNF version: 4.2.17
+2020-10-23T04:20:32Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T04:20:32Z DDEBUG Installroot: /
+2020-10-23T04:20:32Z DDEBUG Releasever: 8
+2020-10-23T04:20:32Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T04:20:32Z DDEBUG Base command: makecache
+2020-10-23T04:20:32Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T04:20:32Z DEBUG Making cache files for all metadata files.
+2020-10-23T04:20:32Z INFO Metadata cache refreshed recently.
+2020-10-23T04:20:32Z DDEBUG Cleaning up.
+2020-10-23T05:20:36Z INFO --- logging initialized ---
+2020-10-23T05:20:36Z DDEBUG timer: config: 3 ms
+2020-10-23T05:20:36Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T05:20:36Z DEBUG DNF version: 4.2.17
+2020-10-23T05:20:36Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T05:20:36Z DDEBUG Installroot: /
+2020-10-23T05:20:36Z DDEBUG Releasever: 8
+2020-10-23T05:20:36Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T05:20:36Z DDEBUG Base command: makecache
+2020-10-23T05:20:36Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T05:20:36Z DEBUG Making cache files for all metadata files.
+2020-10-23T05:20:36Z INFO Metadata cache refreshed recently.
+2020-10-23T05:20:36Z DDEBUG Cleaning up.
+2020-10-23T06:20:40Z INFO --- logging initialized ---
+2020-10-23T06:20:40Z DDEBUG timer: config: 3 ms
+2020-10-23T06:20:40Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T06:20:40Z DEBUG DNF version: 4.2.17
+2020-10-23T06:20:40Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T06:20:40Z DDEBUG Installroot: /
+2020-10-23T06:20:40Z DDEBUG Releasever: 8
+2020-10-23T06:20:40Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T06:20:40Z DDEBUG Base command: makecache
+2020-10-23T06:20:40Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T06:20:40Z DEBUG Making cache files for all metadata files.
+2020-10-23T06:20:40Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T06:20:40Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T06:20:40Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T06:20:40Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T06:20:40Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T06:20:41Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T06:20:41Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T06:20:41Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T06:20:41Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T06:20:41Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T06:20:41Z DDEBUG timer: sack setup: 944 ms
+2020-10-23T06:20:41Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T06:20:41Z INFO Metadata cache created.
+2020-10-23T06:20:41Z DDEBUG Cleaning up.
+2020-10-23T07:20:44Z INFO --- logging initialized ---
+2020-10-23T07:20:44Z DDEBUG timer: config: 3 ms
+2020-10-23T07:20:44Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T07:20:44Z DEBUG DNF version: 4.2.17
+2020-10-23T07:20:44Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T07:20:44Z DDEBUG Installroot: /
+2020-10-23T07:20:44Z DDEBUG Releasever: 8
+2020-10-23T07:20:44Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T07:20:44Z DDEBUG Base command: makecache
+2020-10-23T07:20:44Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T07:20:44Z DEBUG Making cache files for all metadata files.
+2020-10-23T07:20:44Z INFO Metadata cache refreshed recently.
+2020-10-23T07:20:44Z DDEBUG Cleaning up.
+2020-10-23T08:20:47Z INFO --- logging initialized ---
+2020-10-23T08:20:47Z DDEBUG timer: config: 3 ms
+2020-10-23T08:20:47Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T08:20:47Z DEBUG DNF version: 4.2.17
+2020-10-23T08:20:47Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T08:20:47Z DDEBUG Installroot: /
+2020-10-23T08:20:47Z DDEBUG Releasever: 8
+2020-10-23T08:20:47Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T08:20:47Z DDEBUG Base command: makecache
+2020-10-23T08:20:47Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T08:20:47Z DEBUG Making cache files for all metadata files.
+2020-10-23T08:20:47Z INFO Metadata cache refreshed recently.
+2020-10-23T08:20:47Z DDEBUG Cleaning up.
+2020-10-23T09:20:51Z INFO --- logging initialized ---
+2020-10-23T09:20:51Z DDEBUG timer: config: 3 ms
+2020-10-23T09:20:51Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T09:20:51Z DEBUG DNF version: 4.2.17
+2020-10-23T09:20:51Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T09:20:51Z DDEBUG Installroot: /
+2020-10-23T09:20:51Z DDEBUG Releasever: 8
+2020-10-23T09:20:51Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T09:20:51Z DDEBUG Base command: makecache
+2020-10-23T09:20:51Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T09:20:51Z DEBUG Making cache files for all metadata files.
+2020-10-23T09:20:51Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T09:20:51Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T09:20:51Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T09:20:51Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T09:20:51Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T09:20:52Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T09:20:52Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T09:20:52Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T09:20:52Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T09:20:52Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T09:20:52Z DDEBUG timer: sack setup: 1049 ms
+2020-10-23T09:20:52Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T09:20:52Z INFO Metadata cache created.
+2020-10-23T09:20:52Z DDEBUG Cleaning up.
+2020-10-23T10:20:55Z INFO --- logging initialized ---
+2020-10-23T10:20:55Z DDEBUG timer: config: 3 ms
+2020-10-23T10:20:55Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T10:20:55Z DEBUG DNF version: 4.2.17
+2020-10-23T10:20:55Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T10:20:55Z DDEBUG Installroot: /
+2020-10-23T10:20:55Z DDEBUG Releasever: 8
+2020-10-23T10:20:55Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T10:20:55Z DDEBUG Base command: makecache
+2020-10-23T10:20:55Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T10:20:55Z DEBUG Making cache files for all metadata files.
+2020-10-23T10:20:55Z INFO Metadata cache refreshed recently.
+2020-10-23T10:20:55Z DDEBUG Cleaning up.
+2020-10-23T11:20:58Z INFO --- logging initialized ---
+2020-10-23T11:20:58Z DDEBUG timer: config: 3 ms
+2020-10-23T11:20:58Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T11:20:58Z DEBUG DNF version: 4.2.17
+2020-10-23T11:20:58Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T11:20:58Z DDEBUG Installroot: /
+2020-10-23T11:20:58Z DDEBUG Releasever: 8
+2020-10-23T11:20:58Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T11:20:58Z DDEBUG Base command: makecache
+2020-10-23T11:20:58Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T11:20:58Z DEBUG Making cache files for all metadata files.
+2020-10-23T11:20:58Z INFO Metadata cache refreshed recently.
+2020-10-23T11:20:58Z DDEBUG Cleaning up.
+2020-10-23T12:21:02Z INFO --- logging initialized ---
+2020-10-23T12:21:02Z DDEBUG timer: config: 3 ms
+2020-10-23T12:21:02Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T12:21:02Z DEBUG DNF version: 4.2.17
+2020-10-23T12:21:02Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T12:21:02Z DDEBUG Installroot: /
+2020-10-23T12:21:02Z DDEBUG Releasever: 8
+2020-10-23T12:21:02Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T12:21:02Z DDEBUG Base command: makecache
+2020-10-23T12:21:02Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T12:21:02Z DEBUG Making cache files for all metadata files.
+2020-10-23T12:21:02Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T12:21:02Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T12:21:02Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T12:21:02Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T12:21:02Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T12:21:02Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T12:21:02Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T12:21:03Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T12:21:03Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T12:21:03Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T12:21:03Z DDEBUG timer: sack setup: 952 ms
+2020-10-23T12:21:03Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T12:21:03Z INFO Metadata cache created.
+2020-10-23T12:21:03Z DDEBUG Cleaning up.
+2020-10-23T13:21:05Z INFO --- logging initialized ---
+2020-10-23T13:21:05Z DDEBUG timer: config: 3 ms
+2020-10-23T13:21:06Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T13:21:06Z DEBUG DNF version: 4.2.17
+2020-10-23T13:21:06Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T13:21:06Z DDEBUG Installroot: /
+2020-10-23T13:21:06Z DDEBUG Releasever: 8
+2020-10-23T13:21:06Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T13:21:06Z DDEBUG Base command: makecache
+2020-10-23T13:21:06Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T13:21:06Z DEBUG Making cache files for all metadata files.
+2020-10-23T13:21:06Z INFO Metadata cache refreshed recently.
+2020-10-23T13:21:06Z DDEBUG Cleaning up.
+2020-10-23T14:21:09Z INFO --- logging initialized ---
+2020-10-23T14:21:09Z DDEBUG timer: config: 3 ms
+2020-10-23T14:21:09Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T14:21:09Z DEBUG DNF version: 4.2.17
+2020-10-23T14:21:09Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T14:21:09Z DDEBUG Installroot: /
+2020-10-23T14:21:09Z DDEBUG Releasever: 8
+2020-10-23T14:21:09Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T14:21:09Z DDEBUG Base command: makecache
+2020-10-23T14:21:09Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T14:21:09Z DEBUG Making cache files for all metadata files.
+2020-10-23T14:21:09Z INFO Metadata cache refreshed recently.
+2020-10-23T14:21:09Z DDEBUG Cleaning up.
+2020-10-23T15:21:13Z INFO --- logging initialized ---
+2020-10-23T15:21:13Z DDEBUG timer: config: 3 ms
+2020-10-23T15:21:13Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T15:21:13Z DEBUG DNF version: 4.2.17
+2020-10-23T15:21:13Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T15:21:13Z DDEBUG Installroot: /
+2020-10-23T15:21:13Z DDEBUG Releasever: 8
+2020-10-23T15:21:13Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T15:21:13Z DDEBUG Base command: makecache
+2020-10-23T15:21:13Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T15:21:13Z DEBUG Making cache files for all metadata files.
+2020-10-23T15:21:13Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T15:21:13Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T15:21:13Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T15:21:13Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T15:21:13Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T15:21:13Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T15:21:13Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T15:21:14Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T15:21:14Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T15:21:14Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T15:21:14Z DDEBUG timer: sack setup: 880 ms
+2020-10-23T15:21:14Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T15:21:14Z INFO Metadata cache created.
+2020-10-23T15:21:14Z DDEBUG Cleaning up.
+2020-10-23T16:21:16Z INFO --- logging initialized ---
+2020-10-23T16:21:16Z DDEBUG timer: config: 3 ms
+2020-10-23T16:21:17Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T16:21:17Z DEBUG DNF version: 4.2.17
+2020-10-23T16:21:17Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T16:21:17Z DDEBUG Installroot: /
+2020-10-23T16:21:17Z DDEBUG Releasever: 8
+2020-10-23T16:21:17Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T16:21:17Z DDEBUG Base command: makecache
+2020-10-23T16:21:17Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T16:21:17Z DEBUG Making cache files for all metadata files.
+2020-10-23T16:21:17Z INFO Metadata cache refreshed recently.
+2020-10-23T16:21:17Z DDEBUG Cleaning up.
+2020-10-23T16:37:47Z INFO --- logging initialized ---
+2020-10-23T16:37:47Z DDEBUG timer: config: 20 ms
+2020-10-23T16:37:48Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T16:37:48Z DEBUG DNF version: 4.2.17
+2020-10-23T16:37:48Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T16:37:48Z DDEBUG Installroot: /
+2020-10-23T16:37:48Z DDEBUG Releasever: 8
+2020-10-23T16:37:48Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T16:37:48Z DDEBUG Base command: makecache
+2020-10-23T16:37:48Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T16:37:48Z DEBUG Making cache files for all metadata files.
+2020-10-23T16:37:48Z INFO Metadata cache refreshed recently.
+2020-10-23T16:37:48Z DDEBUG Cleaning up.
+2020-10-23T17:37:51Z INFO --- logging initialized ---
+2020-10-23T17:37:51Z DDEBUG timer: config: 3 ms
+2020-10-23T17:37:51Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T17:37:51Z DEBUG DNF version: 4.2.17
+2020-10-23T17:37:51Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T17:37:51Z DDEBUG Installroot: /
+2020-10-23T17:37:51Z DDEBUG Releasever: 8
+2020-10-23T17:37:51Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T17:37:51Z DDEBUG Base command: makecache
+2020-10-23T17:37:51Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T17:37:51Z DEBUG Making cache files for all metadata files.
+2020-10-23T17:37:51Z INFO Metadata cache refreshed recently.
+2020-10-23T17:37:51Z DDEBUG Cleaning up.
+2020-10-23T18:37:53Z INFO --- logging initialized ---
+2020-10-23T18:37:53Z DDEBUG timer: config: 3 ms
+2020-10-23T18:37:53Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T18:37:53Z DEBUG DNF version: 4.2.17
+2020-10-23T18:37:53Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T18:37:53Z DDEBUG Installroot: /
+2020-10-23T18:37:53Z DDEBUG Releasever: 8
+2020-10-23T18:37:53Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T18:37:53Z DDEBUG Base command: makecache
+2020-10-23T18:37:53Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T18:37:53Z DEBUG Making cache files for all metadata files.
+2020-10-23T18:37:53Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T18:37:53Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T18:37:53Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T18:37:53Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T18:37:53Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T18:37:53Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T18:37:53Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T18:37:54Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T18:37:54Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T18:37:54Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T18:37:54Z DDEBUG timer: sack setup: 1262 ms
+2020-10-23T18:37:54Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T18:37:54Z INFO Metadata cache created.
+2020-10-23T18:37:54Z DDEBUG Cleaning up.
+2020-10-23T19:37:58Z INFO --- logging initialized ---
+2020-10-23T19:37:58Z DDEBUG timer: config: 3 ms
+2020-10-23T19:37:58Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T19:37:58Z DEBUG DNF version: 4.2.17
+2020-10-23T19:37:58Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T19:37:58Z DDEBUG Installroot: /
+2020-10-23T19:37:58Z DDEBUG Releasever: 8
+2020-10-23T19:37:58Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T19:37:58Z DDEBUG Base command: makecache
+2020-10-23T19:37:58Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T19:37:58Z DEBUG Making cache files for all metadata files.
+2020-10-23T19:37:58Z INFO Metadata cache refreshed recently.
+2020-10-23T19:37:58Z DDEBUG Cleaning up.
+2020-10-23T20:38:02Z INFO --- logging initialized ---
+2020-10-23T20:38:02Z DDEBUG timer: config: 3 ms
+2020-10-23T20:38:02Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T20:38:02Z DEBUG DNF version: 4.2.17
+2020-10-23T20:38:02Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T20:38:02Z DDEBUG Installroot: /
+2020-10-23T20:38:02Z DDEBUG Releasever: 8
+2020-10-23T20:38:02Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T20:38:02Z DDEBUG Base command: makecache
+2020-10-23T20:38:02Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T20:38:02Z DEBUG Making cache files for all metadata files.
+2020-10-23T20:38:02Z INFO Metadata cache refreshed recently.
+2020-10-23T20:38:02Z DDEBUG Cleaning up.
+2020-10-23T21:38:06Z INFO --- logging initialized ---
+2020-10-23T21:38:06Z DDEBUG timer: config: 4 ms
+2020-10-23T21:38:06Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T21:38:06Z DEBUG DNF version: 4.2.17
+2020-10-23T21:38:06Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T21:38:06Z DDEBUG Installroot: /
+2020-10-23T21:38:06Z DDEBUG Releasever: 8
+2020-10-23T21:38:06Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T21:38:06Z DDEBUG Base command: makecache
+2020-10-23T21:38:06Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T21:38:06Z DEBUG Making cache files for all metadata files.
+2020-10-23T21:38:06Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-23T21:38:06Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-23T21:38:06Z DEBUG extras: has expired and will be refreshed.
+2020-10-23T21:38:06Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-23T21:38:06Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-23T21:38:06Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-23T21:38:06Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-23T21:38:07Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-23T21:38:07Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-23T21:38:07Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-23T21:38:07Z DDEBUG timer: sack setup: 1020 ms
+2020-10-23T21:38:07Z DEBUG Completion plugin: Generating completion cache...
+2020-10-23T21:38:07Z INFO Metadata cache created.
+2020-10-23T21:38:07Z DDEBUG Cleaning up.
+2020-10-23T22:38:09Z INFO --- logging initialized ---
+2020-10-23T22:38:09Z DDEBUG timer: config: 2 ms
+2020-10-23T22:38:09Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T22:38:09Z DEBUG DNF version: 4.2.17
+2020-10-23T22:38:09Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T22:38:09Z DDEBUG Installroot: /
+2020-10-23T22:38:09Z DDEBUG Releasever: 8
+2020-10-23T22:38:09Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T22:38:09Z DDEBUG Base command: makecache
+2020-10-23T22:38:09Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T22:38:09Z DEBUG Making cache files for all metadata files.
+2020-10-23T22:38:09Z INFO Metadata cache refreshed recently.
+2020-10-23T22:38:09Z DDEBUG Cleaning up.
+2020-10-23T23:38:16Z INFO --- logging initialized ---
+2020-10-23T23:38:16Z DDEBUG timer: config: 3 ms
+2020-10-23T23:38:17Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-23T23:38:17Z DEBUG DNF version: 4.2.17
+2020-10-23T23:38:17Z DDEBUG Command: dnf makecache --timer 
+2020-10-23T23:38:17Z DDEBUG Installroot: /
+2020-10-23T23:38:17Z DDEBUG Releasever: 8
+2020-10-23T23:38:17Z DEBUG cachedir: /var/cache/dnf
+2020-10-23T23:38:17Z DDEBUG Base command: makecache
+2020-10-23T23:38:17Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-23T23:38:17Z DEBUG Making cache files for all metadata files.
+2020-10-23T23:38:17Z INFO Metadata cache refreshed recently.
+2020-10-23T23:38:17Z DDEBUG Cleaning up.
+2020-10-24T00:38:22Z INFO --- logging initialized ---
+2020-10-24T00:38:22Z DDEBUG timer: config: 3 ms
+2020-10-24T00:38:22Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-24T00:38:22Z DEBUG DNF version: 4.2.17
+2020-10-24T00:38:22Z DDEBUG Command: dnf makecache --timer 
+2020-10-24T00:38:22Z DDEBUG Installroot: /
+2020-10-24T00:38:22Z DDEBUG Releasever: 8
+2020-10-24T00:38:22Z DEBUG cachedir: /var/cache/dnf
+2020-10-24T00:38:22Z DDEBUG Base command: makecache
+2020-10-24T00:38:22Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-24T00:38:22Z DEBUG Making cache files for all metadata files.
+2020-10-24T00:38:22Z DEBUG AppStream: has expired and will be refreshed.
+2020-10-24T00:38:22Z DEBUG BaseOS: has expired and will be refreshed.
+2020-10-24T00:38:22Z DEBUG extras: has expired and will be refreshed.
+2020-10-24T00:38:22Z DEBUG reviving: 'AppStream' can be revived - repomd matches.
+2020-10-24T00:38:22Z DEBUG AppStream: using metadata from Fri 18 Sep 2020 12:28:08 PM EDT.
+2020-10-24T00:38:22Z DEBUG reviving: 'BaseOS' can be revived - repomd matches.
+2020-10-24T00:38:22Z DEBUG BaseOS: using metadata from Fri 18 Sep 2020 12:28:04 PM EDT.
+2020-10-24T00:38:23Z DEBUG reviving: 'extras' can be revived - repomd matches.
+2020-10-24T00:38:23Z DEBUG extras: using metadata from Thu 17 Sep 2020 11:13:28 AM EDT.
+2020-10-24T00:38:23Z DEBUG User-Agent: constructed: 'libdnf (CentOS Linux 8; generic; Linux.x86_64)'
+2020-10-24T00:38:23Z DDEBUG timer: sack setup: 1025 ms
+2020-10-24T00:38:23Z DEBUG Completion plugin: Generating completion cache...
+2020-10-24T00:38:23Z INFO Metadata cache created.
+2020-10-24T00:38:23Z DDEBUG Cleaning up.
+2020-10-24T01:38:24Z INFO --- logging initialized ---
+2020-10-24T01:38:24Z DDEBUG timer: config: 3 ms
+2020-10-24T01:38:24Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync
+2020-10-24T01:38:24Z DEBUG DNF version: 4.2.17
+2020-10-24T01:38:24Z DDEBUG Command: dnf makecache --timer 
+2020-10-24T01:38:24Z DDEBUG Installroot: /
+2020-10-24T01:38:24Z DDEBUG Releasever: 8
+2020-10-24T01:38:24Z DEBUG cachedir: /var/cache/dnf
+2020-10-24T01:38:24Z DDEBUG Base command: makecache
+2020-10-24T01:38:24Z DDEBUG Extra commands: ['makecache', '--timer']
+2020-10-24T01:38:24Z DEBUG Making cache files for all metadata files.
+2020-10-24T01:38:24Z INFO Metadata cache refreshed recently.
+2020-10-24T01:38:24Z DDEBUG Cleaning up.

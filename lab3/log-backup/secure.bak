@@ -1,0 +1,442 @@
+Oct 20 12:06:55 VM2 sshd[5200]: Accepted password for syjaffery from 192.168.24.1 port 59566 ssh2
+Oct 20 12:06:55 VM2 systemd[5205]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:06:55 VM2 sshd[5200]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:06:55 VM2 sshd[5200]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:06:55 VM2 sshd[5200]: error: Connection from user syjaffery 192.168.24.1 port 59566: refusing non-sftp session [postauth]
+Oct 20 12:06:55 VM2 sshd[5200]: Received disconnect from 192.168.24.1 port 59566:11: disconnected by user [postauth]
+Oct 20 12:06:55 VM2 sshd[5200]: Disconnected from user syjaffery 192.168.24.1 port 59566 [postauth]
+Oct 20 12:06:55 VM2 sshd[5200]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:06:55 VM2 systemd[5210]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:07:03 VM2 systemd[5235]: pam_unix(systemd-user:session): session opened for user hsingh426 by (uid=0)
+Oct 20 12:07:03 VM2 login[3017]: pam_unix(login:session): session opened for user hsingh426 by LOGIN(uid=0)
+Oct 20 12:07:03 VM2 login[3017]: LOGIN ON tty1 BY hsingh426
+Oct 20 12:07:14 VM2 sshd[5275]: Accepted password for syjaffery from ::1 port 58594 ssh2
+Oct 20 12:07:14 VM2 systemd[5283]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:07:14 VM2 sshd[5275]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:07:15 VM2 sshd[5275]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:07:15 VM2 sshd[5275]: error: Connection from user syjaffery ::1 port 58594: refusing non-sftp session [postauth]
+Oct 20 12:07:15 VM2 sshd[5275]: Received disconnect from ::1 port 58594:11: disconnected by user [postauth]
+Oct 20 12:07:15 VM2 sshd[5275]: Disconnected from user syjaffery ::1 port 58594 [postauth]
+Oct 20 12:07:15 VM2 sshd[5275]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:07:15 VM2 systemd[5286]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:07:34 VM2 sudo[5302]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/vi /etc/ssh/sshd_config
+Oct 20 12:07:34 VM2 sudo[5302]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:07:34 VM2 sudo[5302]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:09:33 VM2 sudo[5302]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:09:41 VM2 polkitd[975]: Registered Authentication Agent for unix-process:5309:24918712 (system bus name :1.478 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Oct 20 12:09:43 VM2 polkitd[975]: Unregistered Authentication Agent for unix-process:5309:24918712 (system bus name :1.478, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Oct 20 12:09:43 VM2 polkitd[975]: Operator of unix-process:5309:24918712 FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.479 [<unknown>] (owned by unix-user:hsingh426)
+Oct 20 12:09:49 VM2 polkitd[975]: Registered Authentication Agent for unix-process:5321:24919500 (system bus name :1.485 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Oct 20 12:09:52 VM2 polkitd[975]: Operator of unix-process:5321:24919500 successfully authenticated as unix-user:hsingh426 to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.486 [systemctl restart sshd] (owned by unix-user:hsingh426)
+Oct 20 12:09:52 VM2 sshd[2939]: Received signal 15; terminating.
+Oct 20 12:09:52 VM2 sshd[5340]: Server listening on 0.0.0.0 port 22.
+Oct 20 12:09:52 VM2 sshd[5340]: Server listening on :: port 22.
+Oct 20 12:09:52 VM2 polkitd[975]: Unregistered Authentication Agent for unix-process:5321:24919500 (system bus name :1.485, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Oct 20 12:10:13 VM2 sudo[5343]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/vi /etc/ssh/sshd_config
+Oct 20 12:10:13 VM2 sudo[5343]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:10:13 VM2 sudo[5343]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:10:25 VM2 sudo[5343]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:10:34 VM2 sshd[5347]: Accepted password for syjaffery from ::1 port 58596 ssh2
+Oct 20 12:10:34 VM2 systemd[5352]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:10:34 VM2 sshd[5347]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:10:35 VM2 sshd[5347]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:11:00 VM2 sshd[5347]: Received disconnect from ::1 port 58596:11: disconnected by user [postauth]
+Oct 20 12:11:00 VM2 sshd[5347]: Disconnected from user syjaffery ::1 port 58596 [postauth]
+Oct 20 12:11:00 VM2 sshd[5347]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:11:00 VM2 systemd[5355]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:16:56 VM2 sudo[5396]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/usermod -R /home/jail syjaffery
+Oct 20 12:16:56 VM2 sudo[5396]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:16:56 VM2 sudo[5396]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:16:56 VM2 sudo[5396]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:17:27 VM2 sudo[5406]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/userdel syjaffery
+Oct 20 12:17:27 VM2 sudo[5406]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:17:27 VM2 sudo[5406]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:17:27 VM2 userdel[5408]: delete user 'syjaffery'
+Oct 20 12:17:27 VM2 userdel[5408]: removed group 'syjaffery' owned by 'syjaffery'
+Oct 20 12:17:27 VM2 userdel[5408]: removed shadow group 'syjaffery' owned by 'syjaffery'
+Oct 20 12:17:27 VM2 sudo[5406]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:18:48 VM2 sudo[5415]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/useradd -R /home/jail syjaffery
+Oct 20 12:18:48 VM2 sudo[5415]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:18:48 VM2 sudo[5415]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:18:48 VM2 sudo[5415]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:18:57 VM2 sudo[5424]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/bin/tail /etc/passwd
+Oct 20 12:18:57 VM2 sudo[5424]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:18:57 VM2 sudo[5424]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:18:57 VM2 sudo[5424]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:19:12 VM2 sudo[5427]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/bin/cat /etc/passwd
+Oct 20 12:19:12 VM2 sudo[5427]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:19:12 VM2 sudo[5427]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:19:12 VM2 sudo[5427]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:19:38 VM2 sudo[5432]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/useradd --help
+Oct 20 12:19:38 VM2 sudo[5432]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:19:38 VM2 sudo[5432]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:19:38 VM2 sudo[5432]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:20:02 VM2 sudo[5435]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/userdel syjaffery
+Oct 20 12:20:02 VM2 sudo[5435]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:20:02 VM2 sudo[5435]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:20:02 VM2 sudo[5435]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:20:42 VM2 sudo[5438]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/useradd -d /home/jail/home/syjaffery -R /home/jail syjaffery
+Oct 20 12:20:42 VM2 sudo[5438]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:20:42 VM2 sudo[5438]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:20:42 VM2 sudo[5438]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:20:59 VM2 sudo[5448]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/bin/passwd syjaffery
+Oct 20 12:20:59 VM2 sudo[5448]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:20:59 VM2 sudo[5448]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:20:59 VM2 sudo[5448]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:21:13 VM2 sudo[5451]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/bin/view /etc/passwd
+Oct 20 12:21:13 VM2 sudo[5451]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:21:13 VM2 sudo[5451]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:21:17 VM2 sudo[5451]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:21:45 VM2 sudo[5457]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/useradd syjaffery
+Oct 20 12:21:45 VM2 sudo[5457]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:21:45 VM2 sudo[5457]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:21:45 VM2 useradd[5459]: new group: name=syjaffery, GID=1003
+Oct 20 12:21:45 VM2 useradd[5459]: new user: name=syjaffery, UID=1003, GID=1003, home=/home/syjaffery, shell=/bin/bash
+Oct 20 12:21:45 VM2 sudo[5457]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:22:24 VM2 sudo[5469]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/userdel -r syjaffery
+Oct 20 12:22:24 VM2 sudo[5469]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:22:24 VM2 sudo[5469]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:22:24 VM2 userdel[5471]: delete user 'syjaffery'
+Oct 20 12:22:24 VM2 userdel[5471]: removed group 'syjaffery' owned by 'syjaffery'
+Oct 20 12:22:24 VM2 userdel[5471]: removed shadow group 'syjaffery' owned by 'syjaffery'
+Oct 20 12:22:24 VM2 sudo[5469]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:22:31 VM2 sudo[5478]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/useradd -d /home/jail/home/syjaffery -R /home/jail syjaffery
+Oct 20 12:22:31 VM2 sudo[5478]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:22:31 VM2 sudo[5478]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:22:31 VM2 sudo[5478]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:22:37 VM2 sudo[5487]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/bin/vi /etc/passwd
+Oct 20 12:22:37 VM2 sudo[5487]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:22:37 VM2 sudo[5487]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:22:44 VM2 sudo[5487]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:23:06 VM2 sudo[5491]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/userdel -r syjaffery
+Oct 20 12:23:06 VM2 sudo[5491]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:23:06 VM2 sudo[5491]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:23:06 VM2 sudo[5491]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:26:19 VM2 sudo[5494]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/useradd -D
+Oct 20 12:26:19 VM2 sudo[5494]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:26:19 VM2 sudo[5494]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:26:19 VM2 sudo[5494]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:27:13 VM2 sudo[5499]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/adduser -d /home/jail/home/syjaffery -R /home/jail syjaffery
+Oct 20 12:27:13 VM2 sudo[5499]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:27:13 VM2 sudo[5499]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:27:13 VM2 sudo[5499]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:27:26 VM2 sudo[5510]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/adduser syjaffery
+Oct 20 12:27:26 VM2 sudo[5510]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:27:26 VM2 sudo[5510]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:27:26 VM2 useradd[5512]: new group: name=syjaffery, GID=1003
+Oct 20 12:27:26 VM2 useradd[5512]: new user: name=syjaffery, UID=1003, GID=1003, home=/home/syjaffery, shell=/bin/bash
+Oct 20 12:27:27 VM2 sudo[5510]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:28:15 VM2 sudo[5523]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/usermod -d /home/jail/home/syjaffery/ syjaffery
+Oct 20 12:28:15 VM2 sudo[5523]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:28:15 VM2 sudo[5523]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:28:15 VM2 usermod[5525]: change user 'syjaffery' home from '/home/syjaffery' to '/home/jail/home/syjaffery/'
+Oct 20 12:28:15 VM2 sudo[5523]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:28:37 VM2 sudo[5532]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/sbin/usermod -R /home/jail/ syjaffery
+Oct 20 12:28:37 VM2 sudo[5532]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:28:37 VM2 sudo[5532]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:28:37 VM2 sudo[5532]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:28:50 VM2 sudo[5535]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/bin/vi /etc/passwd
+Oct 20 12:28:50 VM2 sudo[5535]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:28:50 VM2 sudo[5535]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:28:54 VM2 sudo[5535]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:29:03 VM2 sudo[5538]: hsingh426 : TTY=tty1 ; PWD=/home/jail/bin ; USER=root ; COMMAND=/bin/vi /etc/ssh/sshd_config
+Oct 20 12:29:03 VM2 sudo[5538]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:29:03 VM2 sudo[5538]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:31:05 VM2 sudo[5538]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:31:22 VM2 sudo[5542]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/vi hsingh426/lab3/gw1-iptables.bash
+Oct 20 12:31:22 VM2 sudo[5542]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:31:22 VM2 sudo[5542]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:31:23 VM2 sudo[5542]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:32:28 VM2 unix_chkpwd[5554]: password check failed for user (syjaffery)
+Oct 20 12:32:28 VM2 sshd[5548]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=syjaffery
+Oct 20 12:32:30 VM2 sshd[5548]: Failed password for syjaffery from ::1 port 58598 ssh2
+Oct 20 12:32:32 VM2 sshd[5548]: Connection closed by authenticating user syjaffery ::1 port 58598 [preauth]
+Oct 20 12:32:38 VM2 su[5555]: pam_unix(su:auth): authentication failure; logname=hsingh426 uid=1002 euid=0 tty=tty1 ruser=hsingh426 rhost=  user=syjaffery
+Oct 20 12:32:48 VM2 sudo[5558]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/passwd syjaffery
+Oct 20 12:32:48 VM2 sudo[5558]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:32:48 VM2 sudo[5558]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:32:56 VM2 passwd[5560]: pam_unix(passwd:chauthtok): password changed for syjaffery
+Oct 20 12:32:56 VM2 sudo[5558]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:33:02 VM2 sshd[5565]: Accepted password for syjaffery from ::1 port 58600 ssh2
+Oct 20 12:33:02 VM2 systemd[5570]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:33:02 VM2 sshd[5565]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:33:02 VM2 sshd[5565]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:35:02 VM2 sshd[5582]: Accepted password for syjaffery from 192.168.24.1 port 59568 ssh2
+Oct 20 12:35:02 VM2 sshd[5582]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:35:02 VM2 sshd[5582]: subsystem request for sftp by user syjaffery failed, subsystem not found [postauth]
+Oct 20 12:35:02 VM2 sshd[5582]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:35:32 VM2 sshd[5589]: Accepted password for syjaffery from 192.168.24.1 port 59570 ssh2
+Oct 20 12:35:32 VM2 sshd[5589]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:35:32 VM2 sshd[5589]: error: /dev/pts/1: No such file or directory [postauth]
+Oct 20 12:36:19 VM2 sshd[5589]: Received disconnect from 192.168.24.1 port 59570:11: disconnected by user [postauth]
+Oct 20 12:36:19 VM2 sshd[5589]: Disconnected from user syjaffery 192.168.24.1 port 59570 [postauth]
+Oct 20 12:36:19 VM2 sshd[5589]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:36:28 VM2 sshd[5565]: Received disconnect from ::1 port 58600:11: disconnected by user [postauth]
+Oct 20 12:36:28 VM2 sshd[5565]: Disconnected from user syjaffery ::1 port 58600 [postauth]
+Oct 20 12:36:28 VM2 sshd[5565]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:36:28 VM2 systemd[5573]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:36:42 VM2 sudo[5612]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/vi /etc/ssh/sshd_config
+Oct 20 12:36:42 VM2 sudo[5612]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:36:42 VM2 sudo[5612]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:36:56 VM2 sudo[5612]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:37:00 VM2 sudo[5615]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/systemctl restart sshd
+Oct 20 12:37:00 VM2 sudo[5615]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:37:00 VM2 sudo[5615]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:37:00 VM2 sshd[5340]: Received signal 15; terminating.
+Oct 20 12:37:01 VM2 sshd[5620]: Server listening on 0.0.0.0 port 22.
+Oct 20 12:37:01 VM2 sshd[5620]: Server listening on :: port 22.
+Oct 20 12:37:01 VM2 sudo[5615]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:37:08 VM2 sshd[5621]: Accepted password for syjaffery from 192.168.24.1 port 59572 ssh2
+Oct 20 12:37:08 VM2 systemd[5626]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:37:08 VM2 sshd[5621]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:37:08 VM2 sshd[5621]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:37:14 VM2 sshd[5621]: Received disconnect from 192.168.24.1 port 59572:11: disconnected by user [postauth]
+Oct 20 12:37:14 VM2 sshd[5621]: Disconnected from user syjaffery 192.168.24.1 port 59572 [postauth]
+Oct 20 12:37:14 VM2 sshd[5621]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:37:14 VM2 systemd[5629]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:38:03 VM2 su[5648]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:38:03 VM2 su[5648]: pam_unix(su:session): session opened for user syjaffery by hsingh426(uid=1002)
+Oct 20 12:38:14 VM2 su[5648]: pam_unix(su:session): session closed for user syjaffery
+Oct 20 12:38:23 VM2 sudo[5655]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/sbin/usermod -R /home/
+Oct 20 12:38:23 VM2 sudo[5655]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:38:23 VM2 sudo[5655]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:38:23 VM2 sudo[5655]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:38:26 VM2 sudo[5658]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/sbin/usermod -R /home/ syjaffery
+Oct 20 12:38:26 VM2 sudo[5658]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:38:26 VM2 sudo[5658]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:38:26 VM2 sudo[5658]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:39:41 VM2 sudo[5662]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/vi /etc/passwd
+Oct 20 12:39:41 VM2 sudo[5662]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:39:41 VM2 sudo[5662]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:39:56 VM2 sudo[5662]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:40:21 VM2 su[5666]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:40:21 VM2 su[5666]: pam_unix(su:session): session opened for user syjaffery by hsingh426(uid=1002)
+Oct 20 12:41:16 VM2 su[5666]: pam_unix(su:session): session closed for user syjaffery
+Oct 20 12:41:27 VM2 sudo[5675]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/vi /etc/profile
+Oct 20 12:41:27 VM2 sudo[5675]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:41:27 VM2 sudo[5675]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 20 12:41:37 VM2 sudo[5675]: pam_unix(sudo:session): session closed for user root
+Oct 20 12:41:47 VM2 sshd[5680]: Accepted password for syjaffery from ::1 port 58602 ssh2
+Oct 20 12:41:47 VM2 systemd[5688]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:41:47 VM2 sshd[5680]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:41:47 VM2 sshd[5680]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:42:31 VM2 sshd[5680]: Received disconnect from ::1 port 58602:11: disconnected by user [postauth]
+Oct 20 12:42:31 VM2 sshd[5680]: Disconnected from user syjaffery ::1 port 58602 [postauth]
+Oct 20 12:42:31 VM2 sshd[5680]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:42:31 VM2 systemd[5691]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:43:06 VM2 sshd[5713]: Accepted password for syjaffery from 192.168.24.1 port 59576 ssh2
+Oct 20 12:43:06 VM2 systemd[5718]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:43:06 VM2 sshd[5713]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:43:06 VM2 sshd[5713]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:45:40 VM2 sshd[5713]: Received disconnect from 192.168.24.1 port 59576:11: disconnected by user [postauth]
+Oct 20 12:45:40 VM2 sshd[5713]: Disconnected from user syjaffery 192.168.24.1 port 59576 [postauth]
+Oct 20 12:45:40 VM2 sshd[5713]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:45:41 VM2 systemd[5721]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:46:03 VM2 su[5748]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:46:03 VM2 su[5748]: pam_unix(su:session): session opened for user syjaffery by hsingh426(uid=1002)
+Oct 20 12:46:37 VM2 su[5748]: pam_unix(su:session): session closed for user syjaffery
+Oct 20 12:46:49 VM2 su[5755]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 20 12:46:49 VM2 su[5755]: pam_unix(su:session): session opened for user syjaffery by hsingh426(uid=1002)
+Oct 20 12:48:40 VM2 su[5755]: pam_unix(su:session): session closed for user syjaffery
+Oct 20 12:48:47 VM2 sshd[5775]: Accepted password for syjaffery from ::1 port 58604 ssh2
+Oct 20 12:48:47 VM2 systemd[5780]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:48:47 VM2 sshd[5775]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 20 12:48:47 VM2 sshd[5775]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 20 12:49:26 VM2 sshd[5775]: Received disconnect from ::1 port 58604:11: disconnected by user [postauth]
+Oct 20 12:49:26 VM2 sshd[5775]: Disconnected from user syjaffery ::1 port 58604 [postauth]
+Oct 20 12:49:26 VM2 sshd[5775]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 20 12:49:26 VM2 systemd[5783]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 20 12:49:29 VM2 login[3017]: pam_unix(login:session): session closed for user hsingh426
+Oct 20 12:49:35 VM2 unix_chkpwd[5820]: password check failed for user (hsingh426)
+Oct 20 12:49:35 VM2 login[5805]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=hsingh426
+Oct 20 12:49:38 VM2 login[5805]: FAILED LOGIN 1 FROM tty1 FOR hsingh426, Authentication failure
+Oct 20 12:49:43 VM2 systemd[5825]: pam_unix(systemd-user:session): session opened for user hsingh426 by (uid=0)
+Oct 20 12:49:43 VM2 login[5805]: pam_unix(login:session): session opened for user hsingh426 by LOGIN(uid=0)
+Oct 20 12:49:43 VM2 login[5805]: LOGIN ON tty1 BY hsingh426
+Oct 21 10:50:33 VM2 sshd[6497]: Accepted password for syjaffery from 192.168.24.1 port 43350 ssh2
+Oct 21 10:50:33 VM2 systemd[6502]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 21 10:50:33 VM2 sshd[6497]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 21 10:50:33 VM2 sshd[6497]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 21 10:50:43 VM2 sshd[6497]: Received disconnect from 192.168.24.1 port 43350:11: disconnected by user [postauth]
+Oct 21 10:50:43 VM2 sshd[6497]: Disconnected from user syjaffery 192.168.24.1 port 43350 [postauth]
+Oct 21 10:50:43 VM2 sshd[6497]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 21 10:50:43 VM2 systemd[6506]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 23 10:36:30 VM2 sshd[7896]: Accepted password for syjaffery from 192.168.24.1 port 43544 ssh2
+Oct 23 10:36:30 VM2 systemd[7901]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 23 10:36:30 VM2 sshd[7896]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 23 10:36:30 VM2 sshd[7896]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 23 10:36:32 VM2 sshd[7896]: Received disconnect from 192.168.24.1 port 43544:11: disconnected by user [postauth]
+Oct 23 10:36:32 VM2 sshd[7896]: Disconnected from user syjaffery 192.168.24.1 port 43544 [postauth]
+Oct 23 10:36:33 VM2 sshd[7896]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 23 10:36:33 VM2 systemd[7904]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 23 11:24:32 VM2 sshd[7957]: Accepted password for syjaffery from ::1 port 58898 ssh2
+Oct 23 11:24:32 VM2 systemd[7962]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 23 11:24:32 VM2 sshd[7957]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 23 11:24:32 VM2 sshd[7957]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 23 12:21:21 VM2 sshd[7957]: Received disconnect from ::1 port 58898:11: disconnected by user [postauth]
+Oct 23 12:21:21 VM2 sshd[7957]: Disconnected from user syjaffery ::1 port 58898 [postauth]
+Oct 23 12:21:21 VM2 sshd[7957]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 23 12:21:21 VM2 systemd[7965]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 23 12:24:06 VM2 sudo[8014]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/bin/su
+Oct 23 12:24:06 VM2 sudo[8014]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 12:24:06 VM2 sudo[8014]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 12:24:06 VM2 su[8018]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 12:24:06 VM2 su[8018]: pam_unix(su:session): session opened for user root by hsingh426(uid=0)
+Oct 23 12:27:47 VM2 polkitd[971]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 23 12:27:47 VM2 polkitd[971]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 23 12:27:47 VM2 polkitd[971]: Finished loading, compiling and executing 2 rules
+Oct 23 12:27:47 VM2 polkitd[971]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 23 12:27:51 VM2 sshd[995]: Server listening on 0.0.0.0 port 22.
+Oct 23 12:27:51 VM2 sshd[995]: Server listening on :: port 22.
+Oct 23 12:28:08 VM2 systemd[1698]: pam_unix(systemd-user:session): session opened for user hsingh426 by (uid=0)
+Oct 23 12:28:08 VM2 login[1273]: pam_unix(login:session): session opened for user hsingh426 by LOGIN(uid=0)
+Oct 23 12:28:08 VM2 login[1273]: LOGIN ON tty1 BY hsingh426
+Oct 23 13:21:56 VM2 sudo[1783]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/sbin/iptables -L -n -v
+Oct 23 13:21:56 VM2 sudo[1783]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 13:21:56 VM2 sudo[1783]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 13:21:56 VM2 sudo[1783]: pam_unix(sudo:session): session closed for user root
+Oct 23 13:22:11 VM2 sudo[1789]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/sbin/tcpdump -i ens224
+Oct 23 13:22:11 VM2 sudo[1789]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 13:22:11 VM2 sudo[1789]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 13:23:08 VM2 sudo[1789]: pam_unix(sudo:session): session closed for user root
+Oct 23 13:34:44 VM2 sudo[1797]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426 ; USER=root ; COMMAND=/sbin/tcpdump -i ens192
+Oct 23 13:34:44 VM2 sudo[1797]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 13:34:44 VM2 sudo[1797]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 13:35:02 VM2 sudo[1797]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:44:14 VM2 sshd[1985]: Accepted password for syjaffery from 192.168.24.1 port 43586 ssh2
+Oct 23 18:44:14 VM2 systemd[1990]: pam_unix(systemd-user:session): session opened for user syjaffery by (uid=0)
+Oct 23 18:44:14 VM2 sshd[1985]: pam_unix(sshd:session): session opened for user syjaffery by (uid=0)
+Oct 23 18:44:14 VM2 sshd[1985]: error: /dev/pts/0: No such file or directory [postauth]
+Oct 23 18:44:49 VM2 sshd[1985]: Received disconnect from 192.168.24.1 port 43586:11: disconnected by user [postauth]
+Oct 23 18:44:49 VM2 sshd[1985]: Disconnected from user syjaffery 192.168.24.1 port 43586 [postauth]
+Oct 23 18:44:49 VM2 sshd[1985]: pam_unix(sshd:session): session closed for user syjaffery
+Oct 23 18:44:49 VM2 systemd[1993]: pam_unix(systemd-user:session): session closed for user syjaffery
+Oct 23 18:48:22 VM2 sudo[2016]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426/hsingh426/lab3 ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 18:48:22 VM2 sudo[2016]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:48:22 VM2 sudo[2016]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 18:49:56 VM2 sudo[2016]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:50:45 VM2 sudo[2027]: hsingh426 : TTY=tty1 ; PWD=/home/jail/home ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 18:50:45 VM2 sudo[2027]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:50:45 VM2 sudo[2027]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 18:51:42 VM2 sudo[2027]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:53:10 VM2 sudo[2040]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/ln -s /home/jail/home/syjaffery/public_html/ ./public_html
+Oct 23 18:53:10 VM2 sudo[2040]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:53:10 VM2 sudo[2040]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 18:53:10 VM2 sudo[2040]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:53:16 VM2 sudo[2044]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/rm index.html
+Oct 23 18:53:16 VM2 sudo[2044]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:53:16 VM2 sudo[2044]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 18:53:16 VM2 sudo[2044]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:55:50 VM2 sudo[2054]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 18:55:50 VM2 sudo[2054]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:55:50 VM2 sudo[2054]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 18:56:51 VM2 sudo[2054]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:57:14 VM2 sudo[2060]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 18:57:14 VM2 sudo[2060]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:57:14 VM2 sudo[2060]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 18:58:50 VM2 sudo[2060]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:58:55 VM2 sudo[2064]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/sbin/tcpdump -i ens224
+Oct 23 18:58:55 VM2 sudo[2064]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:58:55 VM2 sudo[2064]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 18:58:57 VM2 sudo[2064]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:59:25 VM2 sudo[2068]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/sbin/tcpdump -i ens224
+Oct 23 18:59:25 VM2 sudo[2068]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:59:25 VM2 sudo[2068]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:01:42 VM2 sudo[2068]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:01:46 VM2 sudo[2083]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 19:01:46 VM2 sudo[2083]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:01:46 VM2 sudo[2083]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:01:57 VM2 sudo[2083]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:02:32 VM2 sudo[2089]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/bash -c public_html/index.html index.html
+Oct 23 19:02:32 VM2 sudo[2089]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:02:32 VM2 sudo[2089]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:02:32 VM2 sudo[2089]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:02:35 VM2 sudo[2092]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/sudo -s public_html/index.html index.html
+Oct 23 19:02:35 VM2 sudo[2092]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:02:35 VM2 sudo[2092]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:02:35 VM2 sudo[2094]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/bash -c public_html/index.html index.html
+Oct 23 19:02:35 VM2 sudo[2094]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:02:35 VM2 sudo[2094]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:02:35 VM2 sudo[2094]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:02:35 VM2 sudo[2092]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:02:51 VM2 sudo[2100]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/ls
+Oct 23 19:02:51 VM2 sudo[2100]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:02:51 VM2 sudo[2100]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:02:51 VM2 sudo[2100]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:03:26 VM2 sudo[2106]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/su
+Oct 23 19:03:26 VM2 sudo[2106]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:03:26 VM2 sudo[2106]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:03:26 VM2 su[2108]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:03:26 VM2 su[2108]: pam_unix(su:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:05:15 VM2 sudo[2142]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/mv public_html/ /home/hsingh426/
+Oct 23 19:05:15 VM2 sudo[2142]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:05:15 VM2 sudo[2142]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:05:15 VM2 sudo[2142]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:08:04 VM2 su[2108]: pam_unix(su:session): session closed for user root
+Oct 23 19:08:04 VM2 sudo[2106]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:08:38 VM2 sudo[2158]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/mkdir /home/jail/home/syjaffery/public_html
+Oct 23 19:08:38 VM2 sudo[2158]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:08:38 VM2 sudo[2158]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:08:38 VM2 sudo[2158]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:08:46 VM2 sudo[2163]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/vi /home/jail/home/syjaffery/public_html/index.html
+Oct 23 19:08:46 VM2 sudo[2163]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:08:46 VM2 sudo[2163]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:09:55 VM2 sudo[2163]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:10:21 VM2 sudo[2168]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/su
+Oct 23 19:10:21 VM2 sudo[2168]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:10:21 VM2 sudo[2168]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:10:21 VM2 su[2170]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:10:21 VM2 su[2170]: pam_unix(su:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:13:32 VM2 sudo[2208]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 19:13:32 VM2 sudo[2208]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:13:32 VM2 sudo[2208]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:13:41 VM2 sudo[2208]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:14:47 VM2 sudo[2434]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 19:14:47 VM2 sudo[2434]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:14:47 VM2 sudo[2434]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:15:09 VM2 sudo[2434]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:15:35 VM2 sudo[2438]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/vi /etc/httpd/conf/httpd.conf
+Oct 23 19:15:35 VM2 sudo[2438]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:15:35 VM2 sudo[2438]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:16:57 VM2 sudo[2438]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:17:45 VM2 sudo[2441]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/sbin/setsebool -P httpd_enable_homedirs true
+Oct 23 19:17:45 VM2 sudo[2441]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:17:45 VM2 sudo[2441]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:17:49 VM2 sudo[2441]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:25:06 VM2 su[2170]: pam_unix(su:session): session closed for user root
+Oct 23 19:25:06 VM2 sudo[2168]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:27:30 VM2 sudo[2677]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/sbin/iptables -L -n -v
+Oct 23 19:27:30 VM2 sudo[2677]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:27:30 VM2 sudo[2677]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:27:30 VM2 sudo[2677]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:27:44 VM2 sudo[2682]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/cat /etc/sysconfig/iptables
+Oct 23 19:27:44 VM2 sudo[2682]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:27:44 VM2 sudo[2682]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:27:44 VM2 sudo[2682]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:55:30 VM2 sudo[2707]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/tail -f /var/log/messages
+Oct 23 19:55:30 VM2 sudo[2707]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:55:30 VM2 sudo[2707]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:55:41 VM2 sudo[2707]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:55:47 VM2 sudo[2713]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/tail -f /var/log/kernel
+Oct 23 19:55:47 VM2 sudo[2713]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:55:47 VM2 sudo[2713]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:55:47 VM2 sudo[2713]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:55:52 VM2 sudo[2716]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/tail -f /var/log/kernel.log
+Oct 23 19:55:52 VM2 sudo[2716]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:55:52 VM2 sudo[2716]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:55:52 VM2 sudo[2716]: pam_unix(sudo:session): session closed for user root
+Oct 23 19:56:18 VM2 sudo[2720]: hsingh426 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/su
+Oct 23 19:56:18 VM2 sudo[2720]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:56:18 VM2 sudo[2720]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 19:56:18 VM2 su[2722]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 19:56:18 VM2 su[2722]: pam_unix(su:session): session opened for user root by hsingh426(uid=0)
+Oct 23 20:01:10 VM2 sudo[2763]: hsingh426 : TTY=tty1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 80 --syn -j LOG --log-prefix [iptables] HTTP SYN
+Oct 23 20:01:10 VM2 sudo[2763]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 20:01:10 VM2 sudo[2763]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 20:01:10 VM2 sudo[2763]: pam_unix(sudo:session): session closed for user root
+Oct 23 21:50:26 VM2 su[2722]: pam_unix(su:session): session closed for user root
+Oct 23 21:50:26 VM2 sudo[2720]: pam_unix(sudo:session): session closed for user root
+Oct 23 22:19:47 VM2 sudo[2846]: hsingh426 : TTY=tty1 ; PWD=/home/hsingh426/hsingh426/lab3/log-backup ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 22:19:47 VM2 sudo[2846]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 22:19:47 VM2 sudo[2846]: pam_unix(sudo:session): session opened for user root by hsingh426(uid=0)
+Oct 23 22:19:47 VM2 sudo[2846]: pam_unix(sudo:session): session closed for user root
