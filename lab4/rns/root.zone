@@ -1,0 +1,15 @@
+$ORIGIN .
+$TTL 1D
+.	SOA	rns.hsingh.net. dns-admin.hsingh.net. ( 2020102702 3600 600 604800 1800 ) ;
+	
+				IN	NS	rns.hsingh.net.
+rns.hsingh.net.			IN	A	192.168.24.253
+
+hsingh.net 			IN	NS	pri.hsingh.net.
+pri.hsingh.net.			IN	A	192.168.24.53
+24.168.192.in-addr.arpa.	IN	NS	pri.hsingh.net.
+
+syjaffery.net			IN	NS	pri.syjaffery.net.
+pri.syjaffery.net.		IN	A	192.168.10.53
+10.168.192.in-addr.arpa.	IN	NS	pri.syjaffery.net.	
+
