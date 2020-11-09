@@ -16,8 +16,8 @@ iptables -A INPUT -i lo -j ACCEPT
 iptables -A OUTPUT -o lo -j ACCEPT
 
 # ICMP
-iptables -A INPUT -p ICMP --type-name echo-request -j ACCEPT
-iptables -A INPUT -p ICMP --type-name echo-reply -j ACCEPT
+iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
+iptables -A INPUT -p icmp --icmp-type echo-reply -j ACCEPT
 
 # DNS
 iptables -A OUTPUT -p udp -d 192.168.24.0/24 --dport 53 \
