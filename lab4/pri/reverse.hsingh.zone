@@ -1,0 +1,11 @@
+$ORIGIN 24.168.192.in-addr.arpa.
+$TTL 1D
+
+@	IN	SOA	pri.hsingh.net. dns-admin.hsingh.net ( 2020102902 3600 600 604800 1000 ) ;
+@	IN	NS	pri.hsingh.net.
+53	IN 	PTR	pri.hsingh.net.
+253	IN	PTR	rns.hsingh.net.
+80	IN	PTR	www.hsingh.net.
+25	IN	PTR	mail.hsingh.net.
+
+
