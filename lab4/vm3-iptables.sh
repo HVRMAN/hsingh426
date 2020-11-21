@@ -32,6 +32,19 @@ iptables -A OUTPUT -p tcp -d 192.168.24.0/24 --dport 53 \
 iptables -A INPUT -p tcp -s 192.168.24.0/24 --sport 53 \
       	-m state --state ESTABLISHED -j ACCEPT
 
+iptables -A OUTPUT -p udp -d 172.17.0.0/16 --dport 53 \
+	-m state --state NEW,ESTABLISHED -j ACCEPT
+
+iptables -A INPUT -p udp -s 192.168.24.0/24 --sport 53 \
+	-m state --state ESTABLISHED -j ACCEPT
+
+iptables -A OUTPUT -p tcp -d 192.168.24.0/24 --dport 53 \
+	-m state --state NEW,ESTABLISHED -j ACCEPT
+
+iptables -A INPUT -p tcp -s 192.168.24.0/24 --sport 53 \
+      	-m state --state ESTABLISHED -j ACCEPT
+
+# SSH
 # SSH
 iptables -A INPUT -p tcp -s 192.168.24.0/24 --dport 22 \
 	-m state --state NEW,ESTABLISHED -j ACCEPT
